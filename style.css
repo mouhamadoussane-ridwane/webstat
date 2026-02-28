@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Calibri', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 90px auto;
+    padding: 30px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+}
+
+header h1 b {
+    font-weight: bold;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    letter-spacing: 0.3rem;
+}
+
+.contact-list {
+    list-style: none;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list i {
+    width: 25px;
+    color: #555;
+}
+
+.job-block ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
